@@ -10,7 +10,7 @@ I have hands-on experience with Power BI, Python, SQL, and Excel, delivering ins
 helping businesses make data-driven decisions. I enjoy leveraging data to uncover hidden insights and drive business performance.
 """
 profile_pic = "assets/WhatsApp Image 2024-10-19 at 4.07.28 PM.jpeg"
-background_image = "assets/background.jpg"  # Background image placeholder
+background_image = "assets/background_website.jpg"  # Background image placeholder
 
 # Set background image
 st.markdown(
