@@ -20,6 +20,10 @@ st.markdown(
         background: url({background_image});
         background-size: cover;
         background-position: center;
+        height: 100vh;
+    }}
+    .sidebar .sidebar-content {{
+        background-color: rgba(255, 255, 255, 0.8);  /* Optional: make sidebar semi-transparent */
     }}
     </style>
     """,
@@ -109,7 +113,6 @@ def about_me():
     for platform, link in social_media.items():
         st.markdown(f"- [{platform}]({link})")
 
-
 def display_projects():
     """
     Displays the Projects page.
@@ -119,7 +122,6 @@ def display_projects():
         st.subheader(project["title"])
         st.write(project["description"])
 
-
 def experience():
     """
     Displays the Experience page.
@@ -127,7 +129,6 @@ def experience():
     st.header("Experience")
     st.write("I have hands-on experience in Business Analytics and Intelligence, with a focus on Power BI, Python, and SQL.")
     st.dataframe(experiences)
-
 
 def display_academics():
     """
@@ -139,7 +140,6 @@ def display_academics():
         st.write(f"Institution: {academic['Institution']}")
         st.write(f"Score: {academic['Score']}")
 
-
 def blog():
     """
     Displays the Blog page.
@@ -150,14 +150,12 @@ def blog():
         st.write(post["summary"])
         st.markdown(f"[Read More]({post['link']})")
 
-
 def display_skills():
     """
     Displays the Skills page.
     """
     st.header("Skills")
     st.write(", ".join(skills))
-
 
 def resume():
     """
