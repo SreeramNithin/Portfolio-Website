@@ -9,7 +9,7 @@ I am a Business Analyst with over a year of experience in data analytics, specia
 I have hands-on experience with Power BI, Python, SQL, and Excel, delivering insights through executive-level dashboards and 
 helping businesses make data-driven decisions. I enjoy leveraging data to uncover hidden insights and drive business performance.
 """
-profile_pic = "C:\\Users\\Nithin\\Downloads\\WhatsApp Image 2024-03-10 at 2.02.52 PM.jpeg"  
+profile_pic = "assets\\WhatsApp Image 2024-03-10 at 2.02.52 PM.jpeg"  
 
 # Social Media Links
 social_media = {
