@@ -148,7 +148,7 @@ def resume():
     """
     Provides a download link for the resume.
     """
-    resume_file = r"C:\Users\Nithin\Downloads\Sreeram_Nithin.Resume (2).pdf"
+    resume_file = "assets/Sreeram_Nithin_Resume.pdf"
     st.header("Resume")
 
     try:
